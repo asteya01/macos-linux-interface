@@ -20,7 +20,7 @@ These are in the [`extensions`](extensions) folder. They're written in JavaScrip
 ### Install them
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/macos-linux-interface.git
+git clone https://github.com/asteya01/macos-linux-interface.git
 cd macos-linux-interface
 ./install.sh
 ```
