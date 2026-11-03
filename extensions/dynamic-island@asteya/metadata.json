@@ -1,0 +1,7 @@
+{
+  "uuid": "dynamic-island@asteya",
+  "name": "Dynamic Island",
+  "description": "An iPhone-style Dynamic Island at the top of the screen with a mini music player.",
+  "shell-version": ["49", "50", "51"],
+  "version": 3
+}

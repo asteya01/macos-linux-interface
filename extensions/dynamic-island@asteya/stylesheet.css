@@ -1,0 +1,48 @@
+/* One font name only, without quotes: GNOME rejects lists of quoted names. */
+.di-island {
+  font-family: Inter Display, Inter, sans-serif;
+  background-color: #000000;
+}
+
+/* ---------- compact (in the top bar) ---------- */
+.di-compact {
+  padding: 0 12px;
+  spacing: 8px;
+}
+
+.di-bars { spacing: 2px; }
+.di-bar {
+  width: 3px;
+  border-radius: 2px;
+  background-color: #30d158;
+}
+
+/* ---------- expanded (mini player) ---------- */
+.di-expanded {
+  padding: 16px 22px;
+  spacing: 16px;
+}
+
+.di-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.di-artist {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.di-controls {
+  spacing: 28px;
+  margin-top: 8px;
+}
+
+.di-control {
+  color: #ffffff;
+  border-radius: 99px;
+  padding: 2px;
+}
+.di-control:hover { color: #30d158; }

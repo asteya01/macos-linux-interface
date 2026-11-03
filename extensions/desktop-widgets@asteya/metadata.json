@@ -1,0 +1,7 @@
+{
+  "uuid": "desktop-widgets@asteya",
+  "name": "Desktop Widgets",
+  "description": "A big clock, the date, and weather, calendar and system cards on your wallpaper, like macOS Sonoma widgets.",
+  "shell-version": ["49", "50", "51"],
+  "version": 4
+}

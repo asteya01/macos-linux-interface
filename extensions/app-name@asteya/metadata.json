@@ -1,0 +1,7 @@
+{
+  "uuid": "app-name@asteya",
+  "name": "App Name in Top Bar",
+  "description": "Shows the focused app's name next to the Apple logo, like macOS.",
+  "shell-version": ["49", "50", "51"],
+  "version": 4
+}

@@ -1,0 +1,113 @@
+/* ---------- Fonts: Inter Display is the large-size cut of Inter,
+   very close to Apple's SF Pro Display. ---------- */
+.dw-root, .dw-root * {
+  font-family: Inter Display, Inter, sans-serif;
+}
+
+.dw-root { spacing: 0; }
+
+/* Date above the clock, in calligraphy */
+.dw-root .dw-date {
+  font-family: Great Vibes, Inter Display, serif;
+  font-size: 40px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Big calligraphy clock */
+.dw-root .dw-clock {
+  font-family: Great Vibes, Inter Display, serif;
+  font-size: 150px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.96);
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+  margin-bottom: 10px;
+}
+
+/* City name on the weather card, in calligraphy too */
+.dw-root .dw-w-city {
+  font-family: Great Vibes, Inter Display, serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: white;
+}
+
+.dw-cards { spacing: 18px; }
+.dw-cards-row { spacing: 18px; }
+
+/* ---------- Frosted glass card ---------- */
+.dw-card {
+  background-color: rgba(28, 28, 30, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 26px;
+  padding: 16px 18px;
+  spacing: 8px;
+}
+.dw-wide  { width: 362px; }   /* weather: two cards wide */
+.dw-small { width: 136px; }   /* calendar / system: 172px total each */
+
+.dw-card-title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* ---------- Weather ---------- */
+.dw-w-top { spacing: 8px; }
+.dw-w-temp {
+  font-size: 52px;
+  font-weight: 300;
+  color: white;
+  letter-spacing: -2px;
+}
+.dw-w-desc { font-size: 14px; font-weight: 600; color: white; }
+.dw-w-hilo { font-size: 13px; font-weight: 500; color: rgba(255, 255, 255, 0.7); }
+.dw-w-icon { color: white; }
+.dw-w-sun  { color: #ffd60a; }
+
+.dw-forecast {
+  spacing: 0;
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.dw-fc-col { spacing: 4px; width: 65px; }
+.dw-fc-day { font-size: 12px; font-weight: 700; color: rgba(255, 255, 255, 0.7); }
+.dw-fc-temp { font-size: 13px; font-weight: 600; color: white; font-feature-settings: "tnum"; }
+
+/* ---------- Calendar ---------- */
+.dw-cal-month {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #ff453a;   /* macOS red */
+}
+.dw-cal-grid { spacing: 2px; }
+.dw-cal-row { spacing: 0; }
+.dw-cal-cell {
+  width: 19px;
+  height: 17px;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-feature-settings: "tnum";
+}
+.dw-cal-head { color: rgba(255, 255, 255, 0.5); font-weight: 800; }
+.dw-cal-weekend { color: rgba(255, 255, 255, 0.55); }
+.dw-cal-today {
+  background-color: #ff453a;
+  border-radius: 9px;
+  color: white;
+  font-weight: 800;
+}
+
+/* ---------- System ---------- */
+.dw-row { spacing: 5px; margin-top: 4px; }
+.dw-row-label { font-size: 13px; font-weight: 700; color: white; font-feature-settings: "tnum"; }
+.dw-row-sub { font-size: 11px; font-weight: 500; color: rgba(255, 255, 255, 0.6); }
+.dw-bar-bg  { background-color: rgba(255, 255, 255, 0.15); border-radius: 4px; height: 8px; }
+.dw-bar-cpu { background-color: #0a84ff; border-radius: 4px; height: 8px; }
+.dw-bar-mem { background-color: #30d158; border-radius: 4px; height: 8px; }
